@@ -7,6 +7,9 @@ metadata:
   # annotations:
   #   github.com/project-slug: backstage/backstage
   #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    # instanceName and github-organization-project-name are optional. The value is a string and should be enclosed in double quotes ""
+    jenkins.io/job-full-name: "Mukta-Hexaware/backstageclifourteen"
 spec:
   type: website
   owner: john@example.com
